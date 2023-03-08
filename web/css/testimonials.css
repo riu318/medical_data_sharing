@@ -1,0 +1,105 @@
+/*********************************************************************************************
+Description: Apollo Hospitals - Ahmedabad. - Testimonials Stylesheet
+URL : http://apolloahd.com/
+Author: Mahesh Usadadiya (umndesigner)
+Author URI: www.webmantra.net, www.webmantracreations.com
+**********************************************************************************************
+Designed and Built by Mahesh Usadadiya (umndesigner) - www.webmantra.net, www.webmantracreations.com
+CSS, HTML and Design Files are all Copyright 2013-2014 Webmantra. 
+And God said "Let there be code..."
+**********************************************************************************************/
+
+.bx-wrapper .testimonials-thumbnail{ margin: 0px 0px 0px; }
+.bx-wrapper .testimonials-title{ text-align: center;  margin: 25px 15px 3px; font-size: 24px; line-height: 1; }
+
+.bx-wrapper .testimonials-carousel-thumbnail{
+	float:right;
+	margin-right:20px;
+ 	}
+.testimonials-carousel-context{
+	float:left;
+	width:978px;
+	overflow:hidden;
+	}
+.text{
+	float:left;
+	width:720px;
+	font-size:13px;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:20px;
+	padding:10px 0px 0px 10px;
+	}
+.text b{
+	display:block;
+	font-size:13px;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:20px;
+	font-weight:bold;
+	margin-top:10px;
+	}
+.timages{float:right;}
+.timages img{
+	float:left;
+	width:75px;
+	height:65px;
+	margin:0px 3px;
+	}
+.bx-wrapper{
+	position:relative;
+	margin:0px 0px;
+	padding:0px;
+	width:100%;
+	height:129px;
+	*zoom:1;
+ 	}
+.bx-wrapper .slide {
+	padding:10px;
+	margin:0;
+	display:block;
+	}
+.bx-wrapper .bx-viewport {
+	margin-left:0;
+	z-index:1;
+	width:100%;
+	}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {position: absolute;display:none;bottom: -30px;width: 100%;}
+.bx-wrapper .bx-loading {min-height: 50px;background: url(../images/bx_loader.gif) center center no-repeat #fff;height: 100%;width: 100%;position: absolute;top: 0;left: 0;z-index: 2000;}
+.bx-wrapper .bx-pager {text-align: center;font-size: .85em;font-weight: bold;color: #666;padding-top: 20px;}
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {display: inline-block;*zoom: 1;*display: inline;}
+.bx-wrapper .bx-pager.bx-default-pager a {background: #666;text-indent: -9999px;display: block;width: 10px;height: 10px;margin: 0 5px;outline: 0;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {background: #000;}
+
+.bx-wrapper .bx-next {
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:30px;
+	border-left:1px solid #ddd;
+	height:30px;
+	cursor:pointer;
+	background:#004e62 url(../images/caousel-next.png) no-repeat 0 0 ;}
+.bx-wrapper .bx-prev {
+	position:absolute;
+	bottom:0px;
+	right:30px;
+	border-right:1px solid #ddd;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	background:#004e62 url(../images/caousel-prev.png) no-repeat 0 0 ;}
+.bx-wrapper .bx-controls-direction a {
+	position:absolute;
+	bottom:12px;
+	margin-top:0;
+	margin-right:4px;
+	outline:0;
+	width:30px;
+	height:30px;
+	text-indent:-9999px;
+	z-index:9999;
+	}

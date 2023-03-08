@@ -1,0 +1,118 @@
+/*********************************************************************************************
+Description: Apollo Hospitals - Ahmedabad. - Core Stylesheet
+Author: Mahesh Usadadiya (umndesigner)
+Author URI: www.webmantra.net, www.webmantracreations.com
+**********************************************************************************************
+Designed and Built by Mahesh Usadadiya (umndesigner) - www.webmantra.net, www.webmantracreations.com
+CSS, HTML and Design Files are all Copyright 2013-2014 Webmantra. 
+And God said "Let there be code..."
+**********************************************************************************************/
+p { font-size:14px; line-height:22px;}
+
+dl {padding:0px; margin:0;}
+dl dt {
+	width:600px;
+ 	font-size:13px;
+ 	color:#333; 
+ 	font-family:Arial, Helvetica, sans-serif; 
+	background:url(../images/plus.jpg) no-repeat left top; 
+	position:relative; 
+	cursor:pointer;
+	padding:9px 13px 0px 13px;
+	border-bottom:solid 5px #FFF;
+	height:48px;
+	}	
+dl dt b{
+	font-size:18px;
+ 	color:#333;
+	font-weight:bold;
+	display:block;
+	}	
+
+/*dl dt.last {border:none !important}*/
+dl dt.hover {
+	background:url(../images/minus.jpg) no-repeat left top;
+	color:#333;
+	}
+dl dt.active {
+	background:url(../images/minus.jpg) no-repeat left top;
+	color:#333;
+	border-bottom:none;
+	}
+dl dt.hover span, dl dt.active span {
+	background:#000; 
+	color:white;}
+dl dd {padding:0px 0px; margin:0px;}
+dl dd p {
+	margin:0px 0px; 
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:13px;
+	text-decoration:none; 
+	line-height:18px;
+	}
+
+
+/*html Class*/
+.tebmaster{
+	width:618px;
+ 	padding:18px 4px;
+ 	}
+
+.tebmaster_event{
+	width:626px;
+ 	padding:10px 0px;
+ 	}
+.tebmaster_career{
+	width:626px;
+ 	padding:0px 0px;
+	background:url(../images/careerboxbg.jpg) left top repeat-y #FFF;
+ 	}
+
+.tebmaster .photo{
+	float:left;
+	margin-right:25px;
+ 	}
+.tebmaster .photo img{
+	border:solid 2px #dddddd;
+	width:185px;
+	height:210px;
+	-moz-border-radius-topleft: 20px;
+	-webkit-border-top-left-radius: 20px;
+	 border-top-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+ 	}
+.tebmaster .text{
+	float:left;
+	width:404px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	font-size:13px;
+	line-height:20px;
+ 	}
+	
+#core_desc ul{
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+	
+#core_desc ul li{
+font-size: 13px;
+color: #333;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 18px;
+padding: 4px 0px 4px 30px;
+background: url(../images/arrow_blue.png) 9px 9px no-repeat;
+}
+
+#core_desc ul p{
+font-size: 13px;
+color: #007d9e;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0px 0px 0px 0px;
+line-height: 18px;
+}

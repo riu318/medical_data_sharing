@@ -1,0 +1,17 @@
+/*********************************************************************************************
+Description: Apollo Hospitals - Ahmedabad. - Options Stylesheet
+Author: Mahesh Usadadiya (umndesigner)
+Author URI: www.webmantra.net, www.webmantracreations.com
+**********************************************************************************************
+Designed and Built by Mahesh Usadadiya (umndesigner) - www.webmantra.net, www.webmantracreations.com
+CSS, HTML and Design Files are all Copyright 2013-2014 Webmantra. 
+And God said "Let there be code..."
+**********************************************************************************************/
+/***** iPad Smaller than 959px *****/
+@media only screen and (max-width: 959px) { }
+.slider {background-color:;}
+.fullwidthbanner-container .fullwidthbanner {height:430px !important;}
+/*.tp-bullets.simplebullets.round .bullet:hover,
+.tp-bullets.simplebullets.round .bullet.selected {background-color:#fe5252}
+*/.tp-caption.shopper_white_bg_light, .tp-caption.shopper_white_bg_medium, .tp-caption.shopper_white_bg_bold {color:#fe5252}
+.tp-bannertimer {background-color:#fdb813;}
